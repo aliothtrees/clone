@@ -21,7 +21,7 @@ git clone https://github.com/ArrowOS/android_hardware_qcom_audio.git -b arrow-12
 
 #Trees
 
-'''
+```
 
 git clone https://github.com/aliothtrees/device_xiaomi_alioth -b corvus device/xiaomi/alioth
 
@@ -35,4 +35,4 @@ rm -rf packages/resources/devicesettings
 
 git clone https://github.com/aliothtrees/packages_resources_devicesettings -b snow packages/resources/devicesettings
 
-'''
+```
