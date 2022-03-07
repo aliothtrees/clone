@@ -36,3 +36,9 @@ rm -rf packages/resources/devicesettings
 git clone https://github.com/aliothtrees/packages_resources_devicesettings -b snow packages/resources/devicesettings
 
 ```
+# Proton
+
+``` 
+git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/proton-clang
+
+```
