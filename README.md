@@ -34,3 +34,5 @@ git clone https://github.com/aliothtrees/vendor_xiaomi_alioth -b bliss vendor/xi
 rm -rf packages/resources/devicesettings
 
 git clone https://github.com/aliothtrees/packages_resources_devicesettings -b snow packages/resources/devicesettings
+
+'''
