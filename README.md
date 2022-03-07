@@ -29,7 +29,7 @@ git clone https://github.com/aliothtrees/device_xiaomi_sm8250 -b corvus device/x
 
 git clone https://github.com/aliothtrees/vendor_xiaomi_alioth -b bliss vendor/xiaomi/alioth
 
-git clone https://github.com/aliothtrees/vendor_xiaomi_alioth -b bliss vendor/xiaomi/sm8250-common
+git clone https://github.com/aliothtrees/vendor_xiaomi_sm8250-common -b bliss vendor/xiaomi/sm8250-common
 
 rm -rf packages/resources/devicesettings
 
