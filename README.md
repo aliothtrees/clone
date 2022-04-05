@@ -42,3 +42,10 @@ git clone https://github.com/aliothtrees/packages_resources_devicesettings -b sn
 git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/proton-clang
 
 ```
+# GCC
+
+```
+
+git clone --depth=1 https://gitlab.com/arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b -b master prebuilts/clang/host/linux-x86/clang-r437112b
+
+```
