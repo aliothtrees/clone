@@ -22,14 +22,13 @@ git clone https://github.com/ArrowOS/android_hardware_qcom_audio.git -b arrow-12
 # Trees
 
 ```
+git clone https://github.com/aliothtrees/dot_device_xiaomi_alioth device/xiaomi/alioth
 
-git clone https://github.com/aliothtrees/device_xiaomi_alioth -b corvus device/xiaomi/alioth
+git clone https://github.com/aliothtrees/dot_vendor_xiaomi_alioth vendor/xiaomi/alioth
 
-git clone https://github.com/aliothtrees/device_xiaomi_sm8250 -b main device/xiaomi/sm8250-common
+rm -rf hardware/xiaomi
 
-git clone https://github.com/aliothtrees/vendor_xiaomi_alioth -b bliss vendor/xiaomi/alioth
-
-git clone https://github.com/aliothtrees/vendor_xiaomi_sm8250-common -b bliss vendor/xiaomi/sm8250-common
+git clone https://github.com/aliothtrees/hardware_xiaomi hardware/xiaomi
 
 rm -rf packages/resources/devicesettings
 
