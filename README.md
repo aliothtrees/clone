@@ -22,7 +22,7 @@ git clone https://github.com/Alioth-Lab/hardware_qcom_audio hardware/qcom-caf/sm
 # Trees
 
 ```
-git clone https://github.com/Roxor-007/device_xiaomi_alioth.git -b 12.1 device/xiaomi/alioth
+git clone https://github.com/Roxor-007/device_xiaomi_alioth.git -b corvus device/xiaomi/alioth
 
 git clone https://github.com/Roxor-007/vendor_xiaomi_alioth -b 12.1 vendor/xiaomi/alioth
 
