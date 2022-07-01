@@ -6,15 +6,15 @@
 ```
 rm -rf hardware/qcom-caf/sm8250/display 
 
-git clone https://github.com/ArrowOS/android_hardware_qcom_display.git -b arrow-12.1-caf-sm8250 hardware/qcom-caf/sm8250/display 
+https://github.com/Alioth-Lab/hardware_qcom_display hardware/qcom-caf/sm8250/display
 
 rm -rf hardware/qcom-caf/sm8250/media 
 
-git clone https://github.com/ArrowOS/android_hardware_qcom_media.git -b arrow-12.1-caf-sm8250 hardware/qcom-caf/sm8250/media 
+https://github.com/Alioth-Lab/hardware_qcom_media hardware/qcom-caf/sm8250/media
 
 rm -rf hardware/qcom-caf/sm8250/audio 
 
-git clone https://github.com/ArrowOS/android_hardware_qcom_audio.git -b arrow-12.1-caf-sm8250 hardware/qcom-caf/sm8250/audio
+git clone https://github.com/Alioth-Lab/hardware_qcom_audio hardware/qcom-caf/sm8250/audio
 
 ```
 
@@ -22,17 +22,13 @@ git clone https://github.com/ArrowOS/android_hardware_qcom_audio.git -b arrow-12
 # Trees
 
 ```
-git clone https://github.com/aliothtrees/dot_device_xiaomi_alioth device/xiaomi/alioth
+git clone https://github.com/Roxor-007/device_xiaomi_alioth.git -b 12.1 device/xiaomi/alioth
 
-git clone https://github.com/aliothtrees/dot_vendor_xiaomi_alioth vendor/xiaomi/alioth
+git clone https://github.com/Roxor-007/vendor_xiaomi_alioth -b 12.1 vendor/xiaomi/alioth
 
-rm -rf hardware/xiaomi
+git clone https://github.com/Roxor-007/packages_resources_devicesettings-1.git packages/resources/devicesettings
 
-git clone https://github.com/aliothtrees/hardware_xiaomi hardware/xiaomi
-
-rm -rf packages/resources/devicesettings
-
-git clone https://github.com/aliothtrees/packages_resources_devicesettings -b snow packages/resources/devicesettings
+git clone https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
 
 ```
 # Proton
