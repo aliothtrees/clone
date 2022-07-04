@@ -6,11 +6,11 @@
 ```
 rm -rf hardware/qcom-caf/sm8250/display 
 
-https://github.com/Alioth-Lab/hardware_qcom_display hardware/qcom-caf/sm8250/display
+git clone https://github.com/Alioth-Lab/hardware_qcom_display hardware/qcom-caf/sm8250/display
 
 rm -rf hardware/qcom-caf/sm8250/media 
 
-https://github.com/Alioth-Lab/hardware_qcom_media hardware/qcom-caf/sm8250/media
+git clone https://github.com/Alioth-Lab/hardware_qcom_media hardware/qcom-caf/sm8250/media
 
 rm -rf hardware/qcom-caf/sm8250/audio 
 
